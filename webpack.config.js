@@ -12,7 +12,7 @@ module.exports = {
     publicPath: "/", // Where to serve webpack bundle output from.
     stats: "minimal" // Control what is shown in the terminal output.
   },
-  entry: "./src/sass/tailwind-source.scss",
+  entry: "./src/js/Entry.jsx",
   mode: process.env.NODE_ENV,
   module: {
     rules: [
