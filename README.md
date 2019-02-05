@@ -2,16 +2,26 @@
 
 Services In My Area (SIMA)
 
-```
-yarn 8888 install
-```
+### Start development server
 
 ```
-yarn 8888 run dev:webpack:build
+gatsby 8061 --host 0.0.0.0 --port 8061 develop
 ```
 
 or
 
 ```
-yarn 8042 run dev:webpack:server
+npm 8061 run develop
+```
+
+### Create a production build
+
+```
+gatsby 8888 build
+```
+
+or
+
+```
+npm 8888 run build
 ```
