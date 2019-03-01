@@ -1,9 +1,9 @@
 import React from "react";
-import { Link } from "gatsby";
 
 import Layout from "../components/layout";
-import Image from "../components/image";
 import SEO from "../components/seo";
+import Search from "../components/search";
+import Brands from "../components/brands";
 
 const IndexPage = () => (
   <Layout>
@@ -19,12 +19,8 @@ const IndexPage = () => (
         "dish"
       ]}
     />
-    <h1 className="text-red">Hi people</h1>
-    <p>Welcome to our new site.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <Search />
+    <Brands />
   </Layout>
 );
 

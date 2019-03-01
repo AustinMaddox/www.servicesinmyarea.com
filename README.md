@@ -11,5 +11,5 @@ npm 8061 run develop
 ### Deploy to GitHub pages (gh-pages)
 
 ```
-npm 8888 deploy
+npm 8888 run deploy
 ```
